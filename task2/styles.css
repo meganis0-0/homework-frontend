@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #e6a440;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 400px;
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-section {
+    flex: 1;
+}
+
+.image {
+    width: 600px;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    padding-top: 10px;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+    padding: 15px;
+    margin: 10px;
+}
+
+.product-image {
+    width: 180px;
+    height: 150px;
+}
+
+.buy-button {
+    background-color: #4CAF50; /* Зеленый */
+    color: white; 
+    border: none; 
+    padding: 10px; 
+}
+
+.buy-button:hover {
+   background-color: #45a049; /* Темно-зеленый при наведении */
+}
